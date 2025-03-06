@@ -1,1 +1,11 @@
+#include <iostream>
+//<iostream> 헤더 파일을 컴파일 전에 소스에 확장하도록 지시
+//<iostream> 헤더 파일 : 입출력을 위한 클래스와 객체, 변수 등이 선언됨
 
+int main(){
+    std::cout << "My name is CHA. \n"; //C++의 출력 객체인 cout을 이용
+    // cout << 값 형식으로 출력함
+    // << 연산자 다음에 기본형의 변수를 저장하면 자동으로 데이터 형에 맞추어 출력됨
+
+    return 0;
+}
