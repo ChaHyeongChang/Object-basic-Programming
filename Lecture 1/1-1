@@ -9,3 +9,23 @@ int main(){
 
     return 0;
 }
+
+/*
+#include <iostream>
+
+// 원형 선언 : 함수의 반환형,함수의 이름, 매개변수만을 먼저 선언하는 것
+void star(int a=5);
+
+int main() {
+    star(); // star(5);와 동일 --> void star(int a=5)에서 int a=5는 기본값(default value)이므로 star()를 호출하면 a에 값이 전달되지 않으므로 자동으로 5가 대입됨!!
+    star(10);
+
+    return 0;
+}
+
+// 함수 구현
+void star(int a) {
+    for(int i=0; i<a; i++) std::cout << '*';
+    std::cout << '\n';
+}
+*/
