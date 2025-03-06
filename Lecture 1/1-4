@@ -30,3 +30,27 @@ int main(){
     return 0;
 }
 */
+
+//지피티 풀이
+/*
+#include <iostream>
+
+int main() {
+    int n = 4; // 피라미드의 높이
+
+    for (int i = 1; i <= n; i++) {
+        // 공백 출력
+        for (int j = 0; j < n - i; j++) {
+            std::cout << " ";
+        }
+        // 별 출력
+        for (int j = 0; j < 2 * i - 1; j++) {
+            std::cout << "*";
+        }
+        std::cout << std::endl; // 줄바꿈
+    }
+
+    return 0;
+}
+
+*/
