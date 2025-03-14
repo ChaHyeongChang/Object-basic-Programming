@@ -16,7 +16,7 @@ int main(){
 
     cout << "---------------------------\n";
 
-    cout << name << ', ' << address << '. ' << age << "세";
+    cout << name << ", " << address << ". " << age << "세";
 
     return 0;
 
